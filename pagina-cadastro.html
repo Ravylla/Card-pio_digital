@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página cadastro</title>
+    </head>
+        <body>
+            <h1>Cadastro de usuário</h1>
+            <form action="cadastro-de-usuario.php" method="POST">
+                <label for="nome">Nome completo:</label>
+                <input type="texto" id="texto" name="nome" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="number" id="telefone" name="telefone" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <input type="submit" value="Cadastrar">
+            </form>
+            <style>
+                body {
+                    background-color: rgb(250, 250, 152);
+                }
+
+                h1 {
+                    text-align: center;
+                }
+
+                form {
+                    
+                }
+            </style>
+
+        </body>
+    
+</html>

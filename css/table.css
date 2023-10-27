@@ -1,0 +1,14 @@
+.tabela-produtos {
+    text-align: center;
+    margin: 130px auto;
+    background-color: rgb(255, 208, 0);
+    width: 40%;
+    border: 3px solid black;
+    line-height: 40px
+}
+
+.titulo-tabela {
+    color: black;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(83, 83, 83);
+}
